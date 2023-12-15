@@ -1,0 +1,361 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: left;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+}
+body {
+    margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      height: 150vh;
+      background-image: url(slika_pozadina.jpg);
+      background-size: 100% 100%; 
+      background-size: cover;
+      background-position: center;
+      
+}
+.container {
+    background-color: white;
+    padding: 30px;
+    margin: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .container h1 {
+    color: #333;
+  }
+
+  
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav a {
+      display: none;
+    }
+
+    .menu-icon {
+      display: block;
+    }
+
+    .menu-icon::before {
+      content: "\2630"; /* Unicode  */
+      font-size: 28px;
+      color: white;
+    }
+
+    nav.active {
+      display: block;
+    }
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.gallery img {
+    width: 35%;
+    height: auto;
+}
+.cont2{
+    background-color: orange;
+    color: #f4f4f4;
+    margin: 10%;
+    align-items: right;
+font-size: xx-large;
+left: -750px;
+top: -450px;
+width: 400px;
+}
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #fffcfc;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    margin: 0 10px;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0;
+    color: #333;
+    justify-content: center;
+}
+
+p {
+    margin: 10px 0 0;
+    color: #666;
+    justify-content: center;
+}
+.cont3{
+    
+    position: relative;
+    text-align: center;
+    color: white;
+}
+ .h1{       
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      
+}
+.text-block {
+    position: right;
+    bottom: 20px;
+    right: 40px;
+    background-color: orange;
+    padding-left: 35px;
+    padding-right:150px;
+    left: 25%;
+  }
+  .slika2{
+    position: absolute;
+    left: 100px;
+    bottom: -90px;
+  }
+  .slika3{
+    position:absolute;
+    right: 300px;
+    bottom: -100px;
+  }
+  .tekstpodslikite{
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 40px;
+    right: 350px;
+    font-size: xx-large;
+  }
+  .maltekst{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 80px;
+
+  }
+  .vl{
+    border-left: 6px greey;
+  height: 250px;
+  position: absolute;
+  left: 30%;
+  margin-left: -3px;
+  top: 2000px;
+  }
+  .big{
+    font-size: 75px;
+    visibility: 80%;
+    flex-direction: initial;
+  }
+  .cont4{
+    color: black;
+    position: relative;
+    left: 400px;
+    top: -800px;
+    justify-content: center;
+    
+  }
+  .slika5{
+    position: relative;
+    left: -70px;
+   top: -65px;
+    
+    height: 250px;
+  }
+  .slika6{
+    position: relative;
+    height: 450px;
+    left: -80px;
+    bottom: -40px;
+   
+    
+  }
+  .slika7{
+    position:relative ;
+    height: 400px;
+right: 120px;
+width: 250px;
+  }
+  .cont5{
+    position: relative;
+    top: -650px;
+    align-items: center;
+    left: 200px;
+  }
+  .cont6{
+    position: relative;
+    top: -800px;
+    align-items: center;
+    left: 800px;
+  }
+.cont7{
+    position: relative;
+    top: -700px;
+    justify-items: center;
+    left: 200px;
+}
+.logo{
+    position: relative;
+    height: 200px;
+    top: -900px;
+    left: 900px;
+}
+.cont8{
+    background-color: orange;
+    height: 500px;
+    width: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    box-shadow: #333;
+    top: -700px;
+    left: 450px;
+    position: relative;
+}
+.par{
+    position: relative;
+    top: -1100px;
+    left: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.slika8{
+    position: relative;
+    top: -1250px;
+    left: 250px;
+    height: 350px;
+}
+.slika9{
+    position: relative;
+    height: 500px;
+    width: 250px;
+    top: -1250px;
+    left: 340px;
+}
+.slika10{
+    position: relative;
+    height: 320px;
+    left: 440px;
+    top: -1430px;
+    width: 200px;
+}
+.par2{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    left: 950px;
+    top: -1450px;
+    font-size: small;
+}
+.logoo{
+    position: relative;
+    height: 30px;
+    width: 20px;
+    left: 550px;
+    top: -1200px;
+}
+.fa {
+  position: relative;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  top: -1100px;
+  left: 480px;
+
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.linija {
+  width: 90%;
+  height: 5px;
+  border-top: 5px dotted black;
+  line-height: 80%;
+  position: relative;
+  top: -1100px;
+  left: 75px;
+}
+.ime{
+  font-size: medium;
+  position: relative;
+  top: -1100px;
+  left: 550px;
+}
+  
